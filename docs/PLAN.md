@@ -52,4 +52,6 @@ A tiny dependency-free helper library for parsing and building HTTP `Content-Dis
 - [x] Write tests
 - [x] Write README in English
 - [x] Prepare CI workflow
-- [ ] Push repository
+- [x] Push repository
+
+Note: the CI workflow had to be kept under `omitted/ci.yml` in the published repository because the available GitHub token could not push workflow files without extra `workflow` scope.

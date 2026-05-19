@@ -110,9 +110,11 @@ python -m build
 - [x] Define MVP around parsing + building only
 - [x] Keep implementation dependency-free
 - [x] Add tests for ASCII, Unicode, quoting, invalid input
-- [x] Add CI workflow for tests
+- [x] Prepare CI workflow for tests
 - [x] Document API and scope in English
 - [ ] Publish to PyPI (not part of this run)
+
+> Note: the GitHub Actions workflow was prepared during development, but the published repository omits the live `.github/workflows/ci.yml` file because the available GitHub token lacked `workflow` scope for pushing workflow changes.
 
 ## Limitations
 
